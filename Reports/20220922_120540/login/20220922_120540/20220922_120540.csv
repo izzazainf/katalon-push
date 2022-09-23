@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login,Chrome 105.0.0.0,,,2022-09-22 12:05:46,2022-09-22 12:06:23,37.191s,FAILED
+,,,,,,,
+Test Cases/orangeHRM-invalidLogin,Chrome 105.0.0.0,,,2022-09-22 12:05:57,2022-09-22 12:06:17,20.536s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 105.0.0.0,,,2022-09-22 12:05:57,2022-09-22 12:06:04,7.688s,PASSED
+"setText(findTestObject(""Object Repository/orangeHRM-invalidLogin/Page_OrangeHRM/input_Username_username""), ""admin"")",Chrome 105.0.0.0,,,2022-09-22 12:06:05,2022-09-22 12:06:09,4.147s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/orangeHRM-invalidLogin/Page_OrangeHRM/input_Password_password""), ""AKMtOZf2Q/KdX8zLlcDBaw=="")",Chrome 105.0.0.0,,,2022-09-22 12:06:09,2022-09-22 12:06:11,2.013s,PASSED
+"click(findTestObject(""Object Repository/orangeHRM-invalidLogin/Page_OrangeHRM/button_Login""))",Chrome 105.0.0.0,,,2022-09-22 12:06:11,2022-09-22 12:06:13,1.887s,PASSED
+"click(findTestObject(""Object Repository/orangeHRM-invalidLogin/Page_OrangeHRM/div_Invalid credentials""))",Chrome 105.0.0.0,,,2022-09-22 12:06:13,2022-09-22 12:06:17,4.087s,FAILED
+,,,,,,,
+Test Cases/orange hrm login valid,Chrome 105.0.0.0,,,2022-09-22 12:06:17,2022-09-22 12:06:23,6.197s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 105.0.0.0,,,2022-09-22 12:06:17,2022-09-22 12:06:23,5.525s,PASSED
+"setText(findTestObject(""Object Repository/orangeHRM-login/Page_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 105.0.0.0,,,2022-09-22 12:06:23,2022-09-22 12:06:23,0.161s,FAILED
