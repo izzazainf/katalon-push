@@ -39,3 +39,22 @@ WebUI.click(findTestObject('Object Repository/BRANCH DUA/Page_OrangeHRM/div_7'))
 
 WebUI.click(findTestObject('Object Repository/BRANCH DUA/Page_OrangeHRM/button_Search'))
 
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+
+WebUI.setText(findTestObject('Object Repository/BRANCH DUA/Page_OrangeHRM/input_Username_username'), 'Admin')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/BRANCH DUA/Page_OrangeHRM/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+
+WebUI.click(findTestObject('Object Repository/BRANCH DUA/Page_OrangeHRM/button_Login'))
+
+WebUI.click(findTestObject('Object Repository/BRANCH DUA/Page_OrangeHRM/a_Leave'))
+
+WebUI.click(findTestObject('Object Repository/BRANCH DUA/Page_OrangeHRM/i_From Date_oxd-icon bi-calendar oxd-date-i_f3a9ef'))
+
+WebUI.click(findTestObject('Object Repository/BRANCH DUA/Page_OrangeHRM/div_12'))
+
+WebUI.click(findTestObject('Object Repository/BRANCH DUA/Page_OrangeHRM/input_To Date_oxd-input oxd-input--focus'))
+
+WebUI.click(findTestObject('Object Repository/BRANCH DUA/Page_OrangeHRM/div_7'))
+
+WebUI.click(findTestObject('Object Repository/BRANCH DUA/Page_OrangeHRM/button_Search'))
